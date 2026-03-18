@@ -1,0 +1,270 @@
+{
+    "categories": [
+        {
+            "id": "1",
+            "name": "Electronics",
+            "slug": "electronics"
+        },
+        {
+            "id": "2",
+            "name": "Fashion",
+            "slug": "fashion"
+        },
+        {
+            "id": "3",
+            "name": "Home & Kitchen",
+            "slug": "home-kitchen"
+        },
+        {
+            "id": "4",
+            "name": "Computers",
+            "slug": "computers"
+        }
+    ],
+    "subcategories": [
+        {
+            "id": "1",
+            "name": "Mobiles",
+            "slug": "mobiles",
+            "categoryId": 1
+        }
+    ],
+    "products": [
+        {
+            "id": "1",
+            "title": "Poco C85 5G Power Black 8GB RAM 128GB ROM",
+            "slug": "Poco-C85-5G-Power-Black-8GB-RAM-128GB-ROM",
+            "subSlug": "mobiles",
+            "subcategoryId": 1,
+            "images": [
+                "/assets/mobile-1.jpg",
+                "/assets/mobile-1-1.jpg"
+            ],
+            "rating": 3.8,
+            "reviews": "9.7K",
+            "price": 16999,
+            "discount": 0,
+            "brand": "POCO",
+            "ram": "8GB",
+            "storage": "128GB",
+            "os": "Android 15"
+        },
+        {
+            "id": "2",
+            "title": "Nothing Phone (3a Lite) (Black, 128 GB)",
+            "slug": "Nothing-Phone-Lite-Black-128",
+            "subSlug": "mobiles",
+            "subcategoryId": 1,
+            "images": [
+                "/assets/mobile-2.jpg"
+            ],
+            "rating": 3.8,
+            "reviews": "9.7K",
+            "price": 22999,
+            "discount": 14,
+            "brand": "Nothing",
+            "ram": "8GB",
+            "storage": "128GB",
+            "os": "Android 15"
+        },
+        {
+            "id": "3",
+            "title": "Motorola G57 Power 5G",
+            "slug": "Motorola-G57-Snapdragon-Processor",
+            "subSlug": "mobiles",
+            "subcategoryId": 1,
+            "images": [
+                "/assets/mobile-3.jpg",
+                "/assets/mobile-3-1.jpg"
+            ],
+            "rating": 3.8,
+            "reviews": "9.7K",
+            "price": 17999,
+            "discount": 22,
+            "brand": "Motorola",
+            "ram": "8GB",
+            "storage": "128GB",
+            "os": "Android"
+        },
+        {
+            "id": "4",
+            "title": "Poco C85 5G Power Black 8GB RAM 128GB ROM",
+            "slug": "Poco-C85-5G-Power-Black-8GB-RAM-128GB-ROM",
+            "subSlug": "mobiles",
+            "subcategoryId": 1,
+            "images": [
+                "/assets/mobile-1.jpg",
+                "/assets/mobile-1-1.jpg"
+            ],
+            "rating": 3.8,
+            "reviews": "9.7K",
+            "price": 16999,
+            "discount": 0,
+            "brand": "POCO",
+            "ram": "8GB",
+            "storage": "128GB",
+            "os": "Android 15"
+        },
+        {
+            "id": "5",
+            "title": "Nothing Phone (3a Lite) (Black, 128 GB)",
+            "slug": "Nothing-Phone-Lite-Black-128",
+            "subSlug": "mobiles",
+            "subcategoryId": 1,
+            "images": [
+                "/assets/mobile-2.jpg"
+            ],
+            "rating": 3.8,
+            "reviews": "9.7K",
+            "price": 22999,
+            "discount": 14,
+            "brand": "Nothing",
+            "ram": "8GB",
+            "storage": "128GB",
+            "os": "Android 15"
+        },
+        {
+            "id": "6",
+            "title": "Motorola G57 Power 5G",
+            "slug": "Motorola-G57-Snapdragon-Processor",
+            "subSlug": "mobiles",
+            "subcategoryId": 1,
+            "images": [
+                "/assets/mobile-3.jpg",
+                "/assets/mobile-3-1.jpg"
+            ],
+            "rating": 3.8,
+            "reviews": "9.7K",
+            "price": 17999,
+            "discount": 22,
+            "brand": "Motorola",
+            "ram": "8GB",
+            "storage": "128GB",
+            "os": "Android"
+        }
+    ],
+    "navbarLinks": [
+        {
+            "id": "1",
+            "name": "Mx Player",
+            "type": "static",
+            "path": "/mx-player"
+        },
+        {
+            "id": "2",
+            "name": "Sell",
+            "type": "static",
+            "path": "/sell"
+        },
+        {
+            "id": "3",
+            "name": "Bestsellers",
+            "type": "static",
+            "path": "/bestsellers"
+        },
+        {
+            "id": "4",
+            "name": "Today's Deal",
+            "type": "static",
+            "path": "/deals"
+        },
+        {
+            "id": "5",
+            "name": "Mobiles",
+            "type": "subcategory",
+            "refId": 1
+        },
+        {
+            "id": "6",
+            "name": "Customer Service",
+            "type": "static",
+            "path": "/support"
+        },
+        {
+            "id": "7",
+            "name": "New Releases",
+            "type": "static",
+            "path": "/new-release"
+        },
+        {
+            "id": "8",
+            "name": "Fashion",
+            "type": "category",
+            "refId": 2
+        },
+        {
+            "id": "9",
+            "name": "Electronics",
+            "type": "category",
+            "refId": 1
+        },
+        {
+            "id": "10",
+            "name": "Amazon Pay",
+            "type": "static",
+            "path": "/pay"
+        },
+        {
+            "id": "11",
+            "name": "Home & Kitchen",
+            "type": "category",
+            "refId": 3
+        },
+        {
+            "id": "12",
+            "name": "Computers",
+            "type": "category",
+            "refId": 4
+        }
+    ],
+    "users": [
+        {
+            "id": "1",
+            "name": "Himanshu",
+            "email": "himanshu@example.com",
+            "password": "123456"
+        },
+        {
+            "id": "2",
+            "name": "Rahul",
+            "email": "rahul@example.com",
+            "password": "abcdef"
+        },
+        {
+            "id": "6b2e",
+            "name": "Happy",
+            "email": "happy@gmail.com",
+            "password": "123456"
+        },
+        {
+            "id": "c468",
+            "name": "Happy",
+            "email": "happy1@gmail.com",
+            "password": "123456"
+        },
+        {
+            "id": "b13a",
+            "name": "Himanshu Dimri",
+            "email": "himanshudimrifullstack@gmail.com",
+            "password": "123456"
+        },
+        {
+            "id": "b08a",
+            "name": "Himanshu Dimri",
+            "email": "himanshudimri1fullstack@gmail.com",
+            "password": "asdfg"
+        },
+        {
+            "id": "884d",
+            "name": "Himanshu Dimri",
+            "email": "himanshudimrifullstack11@gmail.com",
+            "password": "123456"
+        },
+        {
+            "id": "544b",
+            "name": "Himanshu Dimri",
+            "email": "rahusswswswl@example.com",
+            "password": "123456"
+        }
+    ]
+}

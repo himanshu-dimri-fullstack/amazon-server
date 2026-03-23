@@ -2,9 +2,9 @@
   "name": "amazon-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port 10000 --host 0.0.0.0"
+    "start": "node api/index.js"
   },
   "keywords": [],
   "author": "",
